@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_mm3b" name="n0" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="429,54" size="137,55" group="n2_mm3b">
+      <Button icon="ui://svwf6wyrp84348" selectedIcon="ui://svwf6wyrp84348"/>
+    </component>
+    <component id="n1_mm3b" name="n1" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="0,53" size="200,69" group="n2_mm3b">
+      <Button icon="ui://svwf6wyrp8433k" selectedIcon="ui://svwf6wyrp8433k"/>
+    </component>
+    <component id="n3_mm3b" name="powerBtn" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="199,48" size="231,64" group="n2_mm3b">
+      <Button icon="ui://svwf6wyrp8432w" selectedIcon="ui://svwf6wyrp8432w"/>
+    </component>
+    <image id="n26_io43" name="n26" src="p8433j" fileName="Images/red_bg.png" xy="449,103" pivot="1,0" size="116,24" group="n2_mm3b" flip="hz"/>
+    <component id="n4_mm3b" name="headiconBtn" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="548,32" size="107,107" group="n2_mm3b" aspect="true" scale="0.68,0.68">
+      <Button icon="ui://svwf6wyrp8431t" selectedIcon="ui://svwf6wyrp8431t"/>
+    </component>
+    <component id="n8_mm3b" name="n8" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="-5,115" size="148,46" group="n2_mm3b">
+      <Button icon="ui://svwf6wyrp8433w" selectedIcon="ui://svwf6wyrp8433w"/>
+    </component>
+    <image id="n9_tmtx" name="n9" src="tmtx70" fileName="Images/ItemUI/item_drill_1.png" pkg="s8oshc2d" xy="96,113" size="45,45" group="n2_mm3b" aspect="true"/>
+    <image id="n14_io43" name="n14" src="p8432x" fileName="Images/Material_power_icon.png" xy="233,60" group="n2_mm3b"/>
+    <text id="n15_io43" name="powerTxt" xy="273,63" size="126,26" group="n2_mm3b" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" shadowColor="#333333" shadowOffset="1,1" autoClearText="true" text="111"/>
+    <component id="n16_io43" name="n16" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="439,55" size="100,43" group="n2_mm3b">
+      <Button icon="ui://svwf6wyrp84347" selectedIcon="ui://svwf6wyrp84347"/>
+    </component>
+    <loader id="n25_io43" name="headbg" xy="564,47" size="100,100" group="n2_mm3b" aspect="true" scale="0.68,0.68" url="ui://svwf6wyrp8431t"/>
+    <image id="n27_io43" name="n27" src="p8431j" fileName="Images/icon_ui_stamina.png" xy="535,97" size="30,30" group="n2_mm3b" aspect="true"/>
+    <text id="n28_io43" name="n28" xy="466,100" pivot="1,0" size="71,26" group="n2_mm3b" fontSize="18" color="#ffff00" text="100/100">
+      <relation target="n27_io43" sidePair="left-right"/>
+    </text>
+    <group id="n2_mm3b" name="head" xy="-5,32" size="669,129" advanced="true"/>
+    <image id="n31_io43" name="n31" src="p84333" fileName="Images/menu_bg.png" xy="-1,1042" size="641,94" group="n34_io43"/>
+    <image id="n38_io43" name="n38" src="p84338" fileName="Images/menu_iconbg.png" xy="522,1041" group="n34_io43"/>
+    <component id="n35_io43" name="n35" src="io434d" fileName="Item_GButton.xml" xy="541,1043" size="96,92" group="n34_io43">
+      <Button title="出城" icon="ui://svwf6wyrp84337" selectedIcon="ui://svwf6wyrp84337"/>
+      <property target="bg" propertyId="1" value="ui://svwf6wyrp84338"/>
+    </component>
+    <image id="n37_io43" name="n37" src="p84338" fileName="Images/menu_iconbg.png" xy="-8,1040" group="n34_io43" flip="hz"/>
+    <component id="n36_io43" name="n36" src="io434d" fileName="Item_GButton.xml" xy="-4,1042" size="115,91" group="n34_io43">
+      <Button title="联盟" icon="ui://svwf6wyrp84330" selectedTitle="联盟" selectedIcon="ui://svwf6wyrp84330"/>
+    </component>
+    <component id="n39_io43" name="n39" src="io434d" fileName="Item_GButton.xml" xy="133,1054" size="81,81" group="n34_io43">
+      <Button icon="ui://svwf6wyrp84339" selectedIcon="ui://svwf6wyrp84339"/>
+    </component>
+    <component id="n40_io43" name="n40" src="io434d" fileName="Item_GButton.xml" xy="236,1055" size="81,81" group="n34_io43">
+      <Button title="背包" icon="ui://svwf6wyrp84332" selectedTitle="背包" selectedIcon="ui://svwf6wyrp84332"/>
+    </component>
+    <component id="n41_io43" name="SoldierBtn" src="io434d" fileName="Item_GButton.xml" xy="330,1052" size="81,81" group="n34_io43">
+      <Button title="军队" icon="ui://svwf6wyrp84331" selectedTitle="军队" selectedIcon="ui://svwf6wyrp84331"/>
+    </component>
+    <component id="n42_io43" name="n42" src="io434d" fileName="Item_GButton.xml" xy="426,1055" size="81,81" group="n34_io43">
+      <Button title="人物" icon="ui://svwf6wyrp84336" selectedTitle="人物" selectedIcon="ui://svwf6wyrp84336"/>
+    </component>
+    <group id="n34_io43" name="bom" xy="-8,1040" size="658,96" advanced="true"/>
+    <image id="n52_w87i" name="n52" src="p8431" fileName="Images/activity_bg.png" xy="553,147" size="82,404">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearSize controller="c1" pages="0" values="82,404,1,1" default="82,166,1,1"/>
+    </image>
+    <component id="n51_w87i" name="pull" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="544,450">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearSize controller="c1" default="100,100,1,1"/>
+      <Button icon="ui://svwf6wyrp843a" controller="c1" page="1"/>
+    </component>
+    <component id="n53_w87i" name="down" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="544,226">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearSize controller="c1" default="100,100,1,1"/>
+      <Button icon="ui://svwf6wyrp8432" controller="c1" page="0"/>
+    </component>
+    <component id="n55_w87i" name="bt_bg1" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="544,149" aspect="true" scale="0.9,0.9">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <Button icon="ui://svwf6wyrp84327"/>
+    </component>
+    <component id="n56_w87i" name="bt_bg2" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="544,230" aspect="true" scale="0.9,0.9">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button icon="ui://svwf6wyrp84327"/>
+    </component>
+    <component id="n57_w87i" name="bt_bg3" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="544,308" aspect="true" scale="0.9,0.9">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button icon="ui://svwf6wyrp84327"/>
+    </component>
+    <component id="n58_w87i" name="bt_bg4" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="544,390" aspect="true" scale="0.9,0.9">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button icon="ui://svwf6wyrp84327"/>
+    </component>
+    <component id="n59_uwsn" name="bt_bg5" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="568,169" size="51,51" aspect="true" scale="0.9,0.9">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <Button icon="ui://svwf6wyrp8435"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n1_cb7w" name="loginBtn" src="cb7w3" fileName="BaseBlueBtn_GButton.xml" pkg="s4s2mipe" xy="104,476" size="148,58" aspect="true">
+      <Button title="login" titleColor="#ffffff" titleFontSize="30" selectedTitle="login"/>
+    </component>
+    <component id="n2_cb7w" name="menaLoginBtn" src="cb7w3" fileName="BaseBlueBtn_GButton.xml" pkg="s4s2mipe" xy="386,476" size="152,61" aspect="true">
+      <Button title="menaLogin" titleColor="#ffffff" titleFontSize="26"/>
+    </component>
+    <component id="n5_cb7w" name="serverListBox" src="cb7w5" fileName="ServerListBox_GComboBox.xml" xy="94,140" size="477,46">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <image id="n14_b55s" name="n14" src="cb7w2" fileName="Images/title_ui_1.png" xy="94,293" size="255,46"/>
+    <image id="n15_b55s" name="n15" src="cb7w2" fileName="Images/title_ui_1.png" xy="94,218" size="255,46"/>
+    <text id="n6_cb7w" name="ipText" xy="98,221" size="10,42" fontSize="30" color="#ffffff" text=""/>
+    <text id="n7_cb7w" name="portText" xy="100,296" size="186,42" fontSize="30" color="#ffffff" autoSize="none" text=""/>
+    <text id="n9_cb7w" name="n9" xy="35,221" size="41,42" fontSize="30" color="#ffffff" text="ip:"/>
+    <text id="n10_cb7w" name="n10" xy="7,296" size="74,42" fontSize="30" color="#ffffff" text="port:"/>
+    <image id="n12_cb7w" name="n12" src="cb7w2" fileName="Images/title_ui_1.png" xy="100,378" size="255,46"/>
+    <text id="n11_cb7w" name="AccoutInput" xy="101,380" size="252,42" fontSize="30" color="#ffffff" autoSize="none" text="" input="true"/>
+    <text id="n13_cb7w" name="n13" xy="14,380" size="73,42" fontSize="30" color="#ffffff" text="账号:"/>
+  </displayList>
+</component>

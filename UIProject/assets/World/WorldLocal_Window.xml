@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,400">
+  <displayList>
+    <image id="n2_uwsn" name="bg" src="rdntl2" fileName="Images/Common_0/frame_common_second_x9.png" pkg="s8oshc2d" xy="31,20" size="290,355"/>
+    <image id="n3_uwsn" name="bg2" src="rdntl2" fileName="Images/Common_0/frame_common_second_x9.png" pkg="s8oshc2d" xy="611,20" size="290,355" scale="-1,1"/>
+    <text id="n5_uwsn" name="local" xy="258,27" size="123,55" font="MI LANTING" fontSize="25" color="#fffed0" align="center" vAlign="middle" autoSize="none" text="输入坐标"/>
+    <text id="n6_uwsn" name="n6" xy="141,146" size="357,35" font="MI LANTING" fontSize="20" color="#4f546b" align="center" vAlign="middle" autoSize="none" text="请输入您要前往的坐标位置"/>
+    <image id="n8_uwsn" name="bg3" src="rdntok" fileName="Images/Common_0/img_common_list_light.png" pkg="s8oshc2d" xy="33,282" size="576,90"/>
+    <image id="n9_uwsn" name="common" src="rdntoi" fileName="Images/Common_0/img_common_list_bg.png" pkg="s8oshc2d" xy="33,279" size="576,4"/>
+    <component id="n11_uwsn" name="bt" src="uwsnu7" fileName="GoBtn_GButton.xml" pkg="s8oshc2d" xy="240,298" scale="0.7,0.7"/>
+    <component id="n12_uwsn" name="close" src="uwsnu8" fileName="CloseBtn2_GButton.xml" pkg="s8oshc2d" xy="30,24"/>
+    <image id="n16_uwsn" name="n16" src="rdntq6" fileName="Images/Common_0/title_common_4_x9.png" pkg="s8oshc2d" xy="140,221" size="161,38"/>
+    <image id="n19_uwsn" name="n19" src="rdntq6" fileName="Images/Common_0/title_common_4_x9.png" pkg="s8oshc2d" xy="381,221" size="161,38"/>
+    <text id="n17_uwsn" name="X" xy="106,222" size="34,35" font="MI LANTING" fontSize="20" color="#4f546b" align="center" vAlign="middle" autoSize="none" text="X:&#xA;"/>
+    <text id="n18_uwsn" name="Y" xy="345,224" size="34,35" font="MI LANTING" fontSize="20" color="#4f546b" align="center" vAlign="middle" autoSize="none" text="Y:&#xA;"/>
+    <text id="n20_uwsn" name="Local_inputX" xy="143,222" size="156,35" fontSize="25" color="#fffed0" align="center" autoSize="none" text="" input="true"/>
+    <text id="n21_uwsn" name="Local_inputY" xy="384,223" size="156,35" fontSize="25" color="#fffed0" align="center" autoSize="none" text="" input="true"/>
+  </displayList>
+</component>

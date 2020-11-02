@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,53" opaque="false">
+  <displayList>
+    <image id="n0_g4d4" name="n0" src="p8432q" fileName="Images/Material_bg.png" xy="0,0"/>
+    <text id="n1_g4d4" name="woodLabel" xy="4,12" size="96,26" fontSize="18" color="#ffffff" text="99.99maaa"/>
+    <image id="n2_g4d4" name="n2" src="p8432z" fileName="Images/Material_wood_icon.png" xy="103,7">
+      <relation target="n1_g4d4" sidePair="right-left"/>
+    </image>
+    <text id="n3_g4d4" name="foodLabel" xy="149,14" size="96,26" fontSize="18" color="#ffffff" text="99.99maaa">
+      <relation target="n2_g4d4" sidePair=""/>
+    </text>
+    <image id="n4_g4d4" name="n4" src="p8432s" fileName="Images/Material_food_icon.png" xy="248,6">
+      <relation target="n1_g4d4" sidePair="right-left"/>
+      <relation target="n3_g4d4" sidePair="right-left"/>
+    </image>
+    <text id="n5_g4d4" name="goldLabel" xy="525,14" pivot="1,0" size="66,26" fontSize="18" color="#ffffff" text="99.99m">
+      <relation target="n2_g4d4" sidePair=""/>
+    </text>
+    <image id="n6_g4d4" name="n6" src="p8432t" fileName="Images/material_gold_icon.png" xy="590,3"/>
+  </displayList>
+</component>

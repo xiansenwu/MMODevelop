@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_o83j" name="icon" xy="0,0" size="100,100" fill="scale" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n5_io43" name="title" xy="32,79" size="40,26" fontSize="18" color="#ffcc99" strokeColor="#000000" text="邮件">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <image id="n7_io43" name="n7" src="p843c" fileName="Images/activity_tip.png" xy="77,2" size="25,23" aspect="true" visible="false">
+      <relation target="n3_o83j" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n8_io43" name="tipTxt" xy="79,2" size="20,19" visible="false" fontSize="12" color="#ffffff" autoSize="shrink" strokeColor="#000000" text="12">
+      <relation target="n7_io43" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <customProperty target="bg" propertyId="1" label="背景"/>
+</component>

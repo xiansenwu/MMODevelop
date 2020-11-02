@@ -1,0 +1,11 @@
+{
+  "name": "AutoCode",
+  "displayName": "AutoCode1.0",
+  "description": "ui界面自动生成代码",
+  "version": "1.0",
+  "author": {
+    "name": "Administrator"
+  },
+  "icon": "",
+  "main": "main.lua"
+}

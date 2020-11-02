@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,128" pivot="0.5,0.5" opaque="false" extention="Button" hitTest="n13_bj3m">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n13_bj3m" name="n13" xy="0,0" size="256,128" visible="false" type="polygon" points="0,64,128,0,256,64,128,128"/>
+    <loader id="n5_j2h8" name="icon" xy="0,-12" size="256,140" url="ui://qvviy45li1zx0"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

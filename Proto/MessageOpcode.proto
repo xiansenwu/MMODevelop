@@ -1,0 +1,28 @@
+syntax = "proto3";
+package ET;
+
+enum MessageOpcode{
+	_NONE = 0;
+	_ErrorInfo = 1;
+	//_C2R_Ping = 41;
+	//_R2C_Ping = 42;
+/********login*************/
+	_C2R_Login = 10001;
+	_R2C_Login = 10002;
+	_C2G_LoginGate = 10003;
+	_G2C_LoginGate = 10004;
+	_C2G_PlayerInfo = 10005;
+	_G2C_PlayerInfo = 10006;
+/********loginEnd*************/
+
+/********world*************/
+	_C2G_EnterMap = 10101;
+	_G2C_EnterMap = 10102;
+	_C2G_MapInfo = 10103;
+	_G2C_MapInfo = 10104;
+	_M2C_CreateUnits = 10105;
+	_M2C_PathfindingResult = 10106;
+	
+/********worldEnd*************/
+
+}

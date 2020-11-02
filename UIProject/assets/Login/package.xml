@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4p8n5d60">
+  <resources>
+    <component id="cb7w0" name="LoginDebug_Window.xml" path="/" exported="true"/>
+    <image id="cb7w1" name="icon_ui_bg_light_arrow.png" path="/Images/"/>
+    <image id="cb7w2" name="title_ui_1.png" path="/Images/" scale="9grid" scale9grid="5,5,10,10"/>
+    <component id="cb7w3" name="ServerListBox_ComboBoxItem.xml" path="/"/>
+    <component id="cb7w4" name="ServerListBox_GComponent.xml" path="/"/>
+    <component id="cb7w5" name="ServerListBox_GComboBox.xml" path="/"/>
+  </resources>
+  <publish name="" genCode="true" extractAlpha="true"/>
+</packageDescription>

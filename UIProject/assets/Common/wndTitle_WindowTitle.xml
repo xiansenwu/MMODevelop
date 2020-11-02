@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" extention="Label" initName="frame">
+  <displayList>
+    <image id="n6_g4d4" name="n6" src="rdntng" fileName="Images/Common_0/img_common_bg.png" xy="0,0"/>
+    <image id="n4_b55s" name="n4" src="p7zztw" fileName="Images/Common_0/title_bg.png" xy="0,53" group="n7_g4d4"/>
+    <component id="n0_b55s" name="closeBtn" src="p7zzu3" fileName="CloseBtn_GButton.xml" xy="493,53" group="n7_g4d4"/>
+    <component id="n1_b55s" name="homeBtn" src="p7zzu2" fileName="HomeBtn_GButton.xml" xy="0,53" group="n7_g4d4"/>
+    <image id="n2_b55s" name="n2" src="b55su4" fileName="Images/Common_0/img_packless_0_arrow.png" xy="397,85" group="n7_g4d4"/>
+    <image id="n3_b55s" name="n3" src="b55su4" fileName="Images/Common_0/img_packless_0_arrow.png" xy="131,85" group="n7_g4d4" flip="hz"/>
+    <text id="n5_b55s" name="title" xy="291,75" size="56,36" group="n7_g4d4" fontSize="26" color="#e7ca92" align="center" vAlign="middle" autoClearText="true" text="背包">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n7_g4d4" name="n7" xy="0,53" size="641,124"/>
+  </displayList>
+</component>

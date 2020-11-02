@@ -1,0 +1,15 @@
+{
+    "name": "Unity.ModelView",
+    "references": [
+        "Unity.ThirdParty",
+        "Unity.Model"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

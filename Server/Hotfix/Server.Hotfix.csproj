@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Hotfix</AssemblyName>
+    <RootNamespace>ETHotfix</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;NETCOREAPP2_0;SERVER</DefineConstants>
+    <OutputPath>..\..\Bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;RELEASE;NETCOREAPP2_0;SERVER</DefineConstants>
+    <OutputPath>..\..\Bin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Other\**" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Logic\Message\LogicOpcode.cs" Link="Logic\Message\LogicOpcode.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Logic\Message\LoginMessage.cs" Link="Logic\Message\LoginMessage.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Logic\Message\WorldMessage.cs" Link="Logic\Message\WorldMessage.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Logic\Module\Login\Model\AccountInfo.cs" Link="Logic\Module\Login\Model\AccountInfo.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Logic\Module\Login\Model\PlayerInfo.cs" Link="Logic\Module\Login\Model\PlayerInfo.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Logic\Module\Login\Model\UserInfo.cs" Link="Logic\Module\Login\Model\UserInfo.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Message\NetOuterComponentSystem.cs">
+      <Link>Module\Message\NetOuterComponentSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Numeric\NumericChangeEvent_NotifyWatcher.cs">
+      <Link>Module\Numeric\NumericChangeEvent_NotifyWatcher.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Numeric\NumericWatcher_Hp_ShowUI.cs">
+      <Link>Module\Numeric\NumericWatcher_Hp_ShowUI.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\DataCompression.cs" Link="Module\Tiled\DataCompression.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\DataEncoding.cs" Link="Module\Tiled\DataEncoding.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\MapOrientation.cs" Link="Module\Tiled\MapOrientation.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\MapRenderOrder.cs" Link="Module\Tiled\MapRenderOrder.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\TiledLayer.cs" Link="Module\Tiled\TiledLayer.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\TiledMap.cs" Link="Module\Tiled\TiledMap.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\TiledObject.cs" Link="Module\Tiled\TiledObject.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\TiledTile.cs" Link="Module\Tiled\TiledTile.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\TiledTileset.cs" Link="Module\Tiled\TiledTileset.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\TileMapCompnent.cs" Link="Module\Tiled\TileMapCompnent.cs" />
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\Tiled\TmxParser.cs" Link="Module\Tiled\TmxParser.cs" />
+    <EmbeddedResource Remove="Other\**" />
+    <None Remove="Other\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Server.Model.csproj" />
+    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Bson\MongoDB.Bson.csproj" />
+    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\MongoDB.Driver.Core.csproj" />
+    <ProjectReference Include="..\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoDB.Driver.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper" />
+    <Folder Include="Logic\Module\Login\Model\" />
+    <Folder Include="Logic\Message\" />
+    <Folder Include="Module\Tiled\" />
+  </ItemGroup>
+</Project>

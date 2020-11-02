@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,64" extention="ProgressBar">
+  <displayList>
+    <image id="n0_gt0g" name="n0" src="gt0g8" fileName="Images/loading_bar_BG.png" xy="0,0" size="640,64">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_gt0g" name="bar" src="gt0gb" fileName="Images/loading_progress.png" xy="0,25" size="640,14" fillMethod="hz"/>
+    <text id="n2_gt0g" name="title" xy="-2,-4" size="640,29" fontSize="16" color="#ff9900" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

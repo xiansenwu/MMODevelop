@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{CD311104-1830-B119-81B6-5DBEE2467FFB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HotfixView/Init.cs">
+    <Files>
+      <File FileName="Assets/Hotfix/Logic/Message/LogicOpcode.cs" Line="18" Column="37" />
+      <File FileName="Assets/HotfixView/Init.cs" Line="125" Column="35" />
+      <File FileName="Assets/HotfixView/Game/Logic/Module/Start/StartFacade.cs" />
+      <File FileName="Assets/ThirdParty/FairyGUI/Resources/Shaders/FairyGUI-Text.shader" Line="14" Column="60" />
+      <File FileName="Assets/HotfixView/Game/UI/Base/UIPackageHelp.cs" Line="51" Column="34" />
+      <File FileName="Assets/ThirdParty/FairyGUI/Scripts/Core/Text/TextField.cs" Line="364" Column="31" />
+      <File FileName="Assets/ThirdParty/FairyGUI/Scripts/UI/EMRenderSupport.cs" Line="1" Column="1" />
+      <File FileName="Assets/HotfixView/Game/Common/Extend/FUIExtend/ExtendGLoader.cs" Line="21" Column="80" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="[Resources]" expanded="True">
+                <Node name="UIRes" expanded="True" />
+              </Node>
+              <Node name="Hotfix" expanded="True">
+                <Node name="Logic" expanded="True">
+                  <Node name="Message" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="HotfixView" expanded="True">
+                <Node name="Game" expanded="True">
+                  <Node name="Common" expanded="True">
+                    <Node name="Extend" expanded="True">
+                      <Node name="FUIExtend" expanded="True" />
+                    </Node>
+                  </Node>
+                  <Node name="UI" expanded="True">
+                    <Node name="Base" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Init.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Unity.Editor PreferredExecutionTarget="336d8d80-e1cb-49a6-9cf4-73bfeeb55e1f" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

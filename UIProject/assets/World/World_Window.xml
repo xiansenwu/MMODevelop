@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <component id="n19_n0j8" name="mapFloor" src="n0j898" fileName="EmptyComponent.xml" pkg="s4s2mipe" xy="0,0"/>
+    <component id="n20_n0j8" name="city" src="n0j898" fileName="EmptyComponent.xml" pkg="s4s2mipe" xy="0,0"/>
+    <component id="n21_rmhr" name="cache" src="n0j898" fileName="EmptyComponent.xml" pkg="s4s2mipe" xy="0,0" visible="false"/>
+  </displayList>
+</component>

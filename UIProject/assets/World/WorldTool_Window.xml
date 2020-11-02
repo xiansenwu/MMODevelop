@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <component id="n23_rmhr" name="centerPoint" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="240,167" size="147,34" scale="1.2,1.2">
+      <Button icon="ui://s8oshc2drdntqu"/>
+    </component>
+    <text id="n24_rmhr" name="pointTxt" xy="238,169" size="131,32" fontSize="22" color="#ffffff" vars="true" text="X:{x=101}  Y:{y=101}"/>
+    <image id="n21_rmhr" name="n21" src="p84317" fileName="Images/icon_ui_coordinate.png" pkg="svwf6wyr" xy="368,162"/>
+  </displayList>
+</component>

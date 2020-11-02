@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s4s2mipe">
+  <resources>
+    <component id="o83j2" name="BaseBtn.xml" path="/" exported="true"/>
+    <image id="cb7w97" name="btn_ui_blue.png" path="/Images/" scale="9grid" scale9grid="26,18,13,5"/>
+    <component id="cb7w3" name="BaseBlueBtn.xml" path="/" exported="true"/>
+    <component id="n0j898" name="EmptyComponent.xml" path="/" exported="true"/>
+    <component id="w87i99" name="Button1.xml" path="/"/>
+  </resources>
+  <publish name="" genCode="true" extractAlpha="true"/>
+</packageDescription>

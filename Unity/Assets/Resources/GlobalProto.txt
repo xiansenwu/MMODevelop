@@ -1,0 +1,1 @@
+{"AssetBundleServerUrl" : "http://192.168.0.101/xxl/", "Address" : "101.200.43.198","Port":10001, "CodeVer" : 10, "SDKType" : 0, "ChanelName" : "cn" }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="235,55" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_cb7w" name="n0" src="cb7w2" fileName="Images/title_ui_1.png" xy="0,0" size="235,55">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_cb7w" name="n1" src="cb7w2" fileName="Images/title_ui_1.png" xy="0,0" size="235,55">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_cb7w" name="n2" src="cb7w2" fileName="Images/title_ui_1.png" xy="0,0" size="235,55">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_cb7w" name="n3" src="cb7w2" fileName="Images/title_ui_1.png" xy="0,0" size="235,55">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_cb7w" name="title" xy="0,0" size="235,55" aspect="true" fontSize="35" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="111">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

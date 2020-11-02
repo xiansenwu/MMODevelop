@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4ex9q1xx">
+  <resources>
+    <component id="rdnt0" name="EmBattle_Window.xml" path="/" exported="true"/>
+    <image id="b55sr" name="group_light.png" path="/Images/"/>
+    <image id="b55ss" name="group_normal.png" path="/Images/"/>
+    <image id="b55st" name="group_state.png" path="/Images/"/>
+    <image id="b55su" name="icon_ui_0_defense.png" path="/Images/"/>
+    <component id="i1zxx" name="selectImg.xml" path="/"/>
+  </resources>
+  <publish name="" genCode="true" extractAlpha="true"/>
+</packageDescription>

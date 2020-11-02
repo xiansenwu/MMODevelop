@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,90" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uwsn" name="n0" src="rdntjj" fileName="Images/Common_0/btn_common_yellow_3.png" xy="0,0" size="230,96" aspect="true">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_uwsn" name="n1" src="rdntjj" fileName="Images/Common_0/btn_common_yellow_3.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_uwsn" name="n2" src="rdntjj" fileName="Images/Common_0/btn_common_yellow_3.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_uwsn" name="title" xy="47,13" size="135,53" aspect="true" font="Microsoft YaHei" fontSize="32" color="#ececde" align="center" vAlign="middle" autoSize="none" singleLine="true" text="前往&#xA;">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+</component>

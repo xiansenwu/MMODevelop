@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="347,55" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_cb7w" name="n5" src="cb7w2" fileName="Images/title_ui_1.png" xy="-1,1" size="347,55">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_cb7w" name="n3" src="cb7w1" fileName="Images/icon_ui_bg_light_arrow.png" xy="304,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n0_cb7w" name="n0" src="cb7w1" fileName="Images/icon_ui_bg_light_arrow.png" xy="304,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n1_cb7w" name="n1" src="cb7w1" fileName="Images/icon_ui_bg_light_arrow.png" xy="304,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n2_cb7w" name="n2" src="cb7w1" fileName="Images/icon_ui_bg_light_arrow.png" xy="304,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <text id="n4_cb7w" name="title" xy="1,4" size="298,48" fontSize="35" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="left-left,rightext-right"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://4p8n5d60cb7w4"/>
+</component>

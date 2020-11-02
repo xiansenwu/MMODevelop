@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_o83j" name="icon" xy="0,0" size="100,100" fill="scale" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n7_io43" name="title" xy="46,77" size="10,26" fontSize="18" color="#ffcc33" strokeColor="#000000" autoClearText="true" text="">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+  <customProperty target="bg" propertyId="1" label="背景"/>
+</component>

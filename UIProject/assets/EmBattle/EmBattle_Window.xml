@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="unlockCtr" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="selectCtr" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="defenseCtr" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n9_g4d4" name="frame" src="b55su5" fileName="wndTitle_WindowTitle.xml" pkg="s8oshc2d" xy="0,0">
+      <Label title="军队"/>
+    </component>
+    <component id="n22_i1zx" name="n22" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="47,147" size="100,121" group="n18_i1zx">
+      <gearDisplay controller="unlockCtr" pages="0,1,2"/>
+      <Button icon="ui://4ex9q1xxb55st"/>
+    </component>
+    <component id="n23_i1zx" name="n23" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="196,147" size="100,121" group="n18_i1zx">
+      <gearDisplay controller="unlockCtr" pages="0,1"/>
+      <Button icon="ui://4ex9q1xxb55st"/>
+    </component>
+    <component id="n24_i1zx" name="n24" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="345,147" size="100,121" group="n18_i1zx">
+      <gearDisplay controller="unlockCtr" pages="0"/>
+      <Button icon="ui://4ex9q1xxb55st"/>
+    </component>
+    <group id="n18_i1zx" name="n18" xy="47,147" size="0,0" advanced="true" layout="hz" colGap="49" excludeInvisibles="true"/>
+    <component id="n25_i1zx" name="n25" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="36,153" size="124,104" group="n20_i1zx">
+      <gearDisplay controller="unlockCtr" pages="3"/>
+      <Button title="守城中" titleColor="#cccccc" titleFontSize="16" icon="ui://4ex9q1xxb55ss" selectedIcon="ui://4ex9q1xxb55ss" controller="selectCtr" page="3"/>
+    </component>
+    <component id="n26_i1zx" name="n26" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="185,153" size="124,104" group="n20_i1zx">
+      <gearDisplay controller="unlockCtr" pages="2,3"/>
+      <Button title="闲置中" titleColor="#00ff66" titleFontSize="16" icon="ui://4ex9q1xxb55ss" selectedIcon="ui://4ex9q1xxb55ss" controller="selectCtr" page="2"/>
+    </component>
+    <component id="n27_i1zx" name="n27" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="334,134" size="124,142" group="n20_i1zx">
+      <gearDisplay controller="unlockCtr" pages="1,2,3"/>
+      <Button icon="ui://4ex9q1xxb55ss" selectedIcon="ui://4ex9q1xxb55ss" controller="selectCtr" page="1"/>
+    </component>
+    <component id="n28_i1zx" name="n28" src="o83j2" fileName="BaseBtn.xml" pkg="s4s2mipe" xy="483,134" size="124,142" group="n20_i1zx">
+      <gearDisplay controller="unlockCtr" pages="0,1,2,3"/>
+      <Button icon="ui://4ex9q1xxb55ss" selectedIcon="ui://4ex9q1xxb55ss" controller="selectCtr" page="0"/>
+    </component>
+    <group id="n20_i1zx" name="n20" xy="36,134" size="571,142" advanced="true" layout="hz" colGap="25"/>
+    <component id="n17_i1zx" name="n17" src="i1zxx" fileName="selectImg.xml" xy="483,135">
+      <gearDisplay controller="selectCtr" pages="0,1,2,3"/>
+      <gearXY controller="selectCtr" pages="0,1,2,3" values="483,135|334,135|185,135|36,135"/>
+    </component>
+    <image id="n21_i1zx" name="n21" src="b55su" fileName="Images/icon_ui_0_defense.png" xy="562,136">
+      <gearDisplay controller="defenseCtr" pages="0,1,2,3"/>
+      <gearXY controller="defenseCtr" pages="0,1,2" values="562,136|414,135|266,135" default="114,136"/>
+    </image>
+  </displayList>
+</component>

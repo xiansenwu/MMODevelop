@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="state" alias="更新加载状态切换" pages="0,updateState,1,loadState" selected="0"/>
+  <displayList>
+    <image id="n7_gt0g" name="bg" src="gt0ga" fileName="Images/loading_bg.png" xy="0,0"/>
+    <component id="n8_gt0g" name="bar" src="gt0gc" fileName="LoadProgressBar.xml" xy="0,1067" size="640,64">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n3_g1xh" name="load" xy="275,1040" size="92,24" fontSize="16" color="#ff9900" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="加载中........">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <text id="n4_g1xh" name="update" xy="275,1039" size="82,24" fontSize="16" color="#ff9900" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="更新中......">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+  </displayList>
+</component>
